@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #E9EBF8;
+}
+
+/* NavBar */
+nav ul {
+    background:#383961;
+    padding: 0 20px;
+    list-style: none;
+    position: relative;
+    display: inline-table;
+    width: 100%;
+ }
+
+nav ul li {
+    float:left;
+}
+
+nav ul li:hover {
+    background-color: #EFEFEF;
+}
+
+nav ul li:hover a {
+    color: #000;
+}
+
+nav ul li a {
+    display: block;
+    padding: 25px;
+    color: #E9EBF8;
+    text-decoration: none;
+}
+
+/* left and right */
+.all {
+    padding: 25px;
+}
+
+.border {
+    border-radius: 10px;
+    padding: 3px;
+}
+
+.list {
+    list-style: none;
+    text-align: center;
+}
+
+li a {
+    text-decoration: none;
+    color: #383961;
+}
+
+li a:hover {
+    color: salmon;
+}
+
+/* footer */
+.footer {
+    background:#383961;
+    font-family: calibri;
+    color: #E9EBF8;
+    font-size: 10pt;
+}
+
+/* home */
+.profile {
+    border-radius: 50%;
+}
+
+#home {
+    padding: 5px;
+}
+
+.biodata {
+    font-family: timesnewroman;
+    color: salmon;
+    font-size: 25pt;
+}
+
+.isi {
+    padding: 0 20px 0 20px;
+}
+
+.isi, ul {
+    list-style: none;
+}
+
+/* study */
+.study {
+    margin: auto;
+    border:1px solid;
+    justify-content: center;
+    padding: 0;
+    border-spacing: 0;
+    width: 100%;
+}
+
+.tbl {
+    padding-bottom: 419px;
+}
+
+.table {
+    padding-top: 15px;
+}
+
+.judultable {
+    padding-top: 25px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+
+.headtable {
+    background-color: cyan;
+    padding: 5px;
+}
+
+.bodytable {
+    background-color: snow;
+    padding: 3px;
+}
+
+.foottable {
+    background-color: salmon;
+    padding: 5px;
+}
+
+/* gallery */
+.galeri {
+    padding: 30px;
+}
